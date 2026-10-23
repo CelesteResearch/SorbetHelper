@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>disable</Nullable>
+        <SharedRoot>$(MSBuildThisFileDirectory)..\..\Shared</SharedRoot>
+        <UseSharedCompilation>false</UseSharedCompilation>
+        <ShouldUnsetParentConfigurationAndPlatform>false</ShouldUnsetParentConfigurationAndPlatform>
+    </PropertyGroup>
+</Project>
